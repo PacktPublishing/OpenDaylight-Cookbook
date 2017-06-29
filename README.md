@@ -34,7 +34,7 @@ The code will look like the following:
 ```
 
 ## Related Products
-* [Learning OpenDaylight)](https://www.packtpub.com/networking-and-servers/learning-opendaylight?utm_source=repository&utm_medium=github&utm_campaign=repository&utm_term=9781782174523)
+* [Learning OpenDaylight](https://www.packtpub.com/networking-and-servers/learning-opendaylight?utm_source=repository&utm_medium=github&utm_campaign=repository&utm_term=9781782174523)
 
 * [Docker Networking Cookbook](https://www.packtpub.com/networking-and-servers/docker-networking-cookbook?utm_source=repository&utm_medium=github&utm_campaign=repository&utm_term=9781786461148)
 
