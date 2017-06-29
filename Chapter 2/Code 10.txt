@@ -1,0 +1,18 @@
+{
+ 
+  "input":{
+ 
+      "channel":{
+ 
+          "hostname":"192.168.2.26",
+ 
+          "port":"2007",
+ 
+          "tcp":"true",
+ 
+          "content":"This is a test message."
+ 
+      }
+ 
+    }
+} 

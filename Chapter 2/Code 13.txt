@@ -1,0 +1,17 @@
+{
+ 
+  "m2m:ae":{
+ 
+      "api":"testAppId",            /*Application ID*/
+ 
+      "apn":"testAppName",          /*Application name*/
+ 
+      "rn":"TestAE",                /*Resource name*/
+ 
+      "or":"http://ontology/ref", /*On topology reference*/
+ 
+      "rr":true                  /*Request reachability*/
+ 
+    }
+
+} 

@@ -1,0 +1,19 @@
+{
+ 
+  "input":{
+ 
+      "channel":{
+ 
+        "hostname":"${VM_IP_ADDRESS}",
+ 
+        "port":2007,
+ 
+        "remote":false,
+ 
+        "tcp":true
+ 
+      }
+ 
+    }
+ 
+} 

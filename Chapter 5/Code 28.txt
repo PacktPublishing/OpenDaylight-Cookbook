@@ -1,0 +1,7 @@
+<extension>
+
+<type xmlns:pcepspi="urn:opendaylight:params:xml:ns:yang:controller:pcep:spi">pcepspi:extension</type>
+
+<name>pcep-new-extension-parser</name>
+
+</extension>

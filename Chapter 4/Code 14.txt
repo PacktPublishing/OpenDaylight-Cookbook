@@ -1,0 +1,13 @@
+{
+ 
+    "input": {
+ 
+        "name": "RSP1",
+ 
+        "parent-service-function-path": "SFP1",
+ 
+        "symmetric": "true"
+ 
+    }
+ 
+}  

@@ -1,0 +1,6 @@
+<module>
+
+<type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:bgp:new-extension-parser">prefix:bgp-new-extension-parser</type>
+<name>new-extension-parser</name>
+
+</module>

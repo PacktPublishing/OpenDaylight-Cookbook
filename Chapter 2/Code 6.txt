@@ -1,0 +1,33 @@
+<vpns xmlns="urn:opendaylight:params:xml:ns:yang:vpnintent">
+ 
+    <vpn-intents>
+ 
+        <vpn-name>VPN #1</vpn-name>
+ 
+        <failover-type>fast-reroute</failover-type>
+ 
+        <path-protection>true</path-protection>
+ 
+        <endpoint>
+ 
+            <site-name>site1</site-name>
+ 
+            <ip-prefix>10.0.0.1/32</ip-prefix>
+ 
+            <switch-port-id>openflow:1:1</switch-port-id>
+ 
+        </endpoint>
+ 
+        <endpoint>
+ 
+            <site-name>site3</site-name>
+ 
+            <ip-prefix>10.0.0.3/32</ip-prefix>
+ 
+            <switch-port-id>openflow:3:1</switch-port-id>
+ 
+        </endpoint>
+ 
+    </vpn-intents>
+ 
+</vpns> 

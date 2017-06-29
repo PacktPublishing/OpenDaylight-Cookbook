@@ -1,0 +1,27 @@
+{
+ 
+    "service-function-paths":{
+ 
+      "service-function-path":[
+ 
+          {
+ 
+            "name":"SFP1",
+
+            "service-chain-name":"SFC1",
+
+            "classifier":"Classifier1",
+
+            "symmetric-classifier":"Classifier2",
+
+            "context-metadata":"NSH1",
+
+            "symmetric":"true"
+
+          }
+
+      ]
+
+    }
+
+} 

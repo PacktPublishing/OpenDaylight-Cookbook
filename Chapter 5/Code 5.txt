@@ -1,0 +1,60 @@
+<input xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep">
+
+<node>pcc://192.168.1.208</node>
+
+<name>tunnel-1</name>
+
+<arguments>
+
+<lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful">
+
+<delegate>true</delegate>
+
+<administrative>true</administrative>
+
+</lsp>
+
+<endpoints-obj>
+
+<ipv4>
+
+<source-ipv4-address>192.168.1.208</source-ipv4-address>
+
+<destination-ipv4-address>39.39.39.39</destination-ipv4-address>
+
+</ipv4>
+</endpoints-obj>
+
+<ero>
+
+<subobject>
+
+<loose>false</loose>
+
+  <ip-prefix><ip-prefix>201.24.160.40/32</ip-prefix></ip-prefix>
+
+</subobject>
+
+<subobject>
+<
+loose>false</loose>
+
+  <ip-prefix><ip-prefix>195.20.160.33/32</ip-prefix></ip-prefix>
+
+</subobject>
+
+<subobject>
+
+<loose>false</loose>
+
+  <ip-prefix><ip-prefix>39.39.39.39/32</ip-prefix></ip-prefix>
+
+</subobject>
+
+</ero>
+
+</arguments>
+
+<network-topology-ref xmlns:topo="urn:TBD:params:xml:ns:yang:network-topology">/topo:network-topology/topo:topology[topo:topology-id="pcep-topology"]</network-topology-ref>
+
+</input>

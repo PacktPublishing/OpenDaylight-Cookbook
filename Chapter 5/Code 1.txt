@@ -1,0 +1,9 @@
+<module>
+
+<type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:bgp:rib:impl">prefix:bgp-peer</type>
+
+<name>example-bgp-peer</name>
+
+<host>192.168.1.119</host>
+
+<holdtimer>180</holdtimer>

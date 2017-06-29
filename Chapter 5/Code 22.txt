@@ -1,0 +1,7 @@
+<instance>
+
+<name>bgp-new-extension-parser</name>
+
+<provider>/modules/module[type='bgp-new-extension-parser'][name='bgp-new-extension-parser']</provider>
+
+</instance>

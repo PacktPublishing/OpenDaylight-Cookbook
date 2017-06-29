@@ -1,0 +1,68 @@
+{
+ 
+  "link":[
+ 
+      {
+ 
+        "link-id":"evc://${EVC_ID}",
+ 
+        "source":{
+ 
+            "source-node":"/network-topology/topology/node/uni://${DEVICE_1_IP}"
+ 
+        },
+ 
+        "destination":{
+ 
+            "dest-node":"/network
+-topology/topology/node/uni://${DEVICE_2_IP}"
+ 
+        },
+ 
+        "cl-unimgr-mef:uni-source":[
+ 
+            {
+ 
+              "order":"0",
+ 
+              "ip-address":"${DEVICE_1_IP}"
+ 
+            }
+ 
+        ],
+ 
+        "cl-unimgr-mef:uni-dest":[
+ 
+           {
+ 
+               "order":"0",
+ 
+               "ip-address":"${DEVICE_2_IP}"
+ 
+           }
+ 
+         ],
+ 
+         "cl-unimgr-mef:cos-id":"string",
+ 
+         "cl-unimgr-mef:ingress-bw":{
+ 
+           "speed-10G":{
+ 
+           }
+ 
+         },
+ 
+         "cl-unimgr-mef:egress-bw":{
+ 
+           "speed-10G":{
+ 
+           }
+ 
+         }
+ 
+      }
+ 
+   ]
+ 
+} 

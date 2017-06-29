@@ -1,0 +1,9 @@
+{
+ 
+    "input":{
+ 
+      "tenant-name":"vtn1"
+
+    }
+
+} 

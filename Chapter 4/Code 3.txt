@@ -1,0 +1,13 @@
+{
+ 
+  "input":{
+ 
+      "tenant-name":"vtn1",
+ 
+      "bridge-name":"vbr1",
+ 
+      "interface-name":"if1"
+ 
+    }
+ 
+} 

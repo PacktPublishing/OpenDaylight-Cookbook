@@ -1,0 +1,46 @@
+{
+    
+"gate":
+ 
+  {
+ 
+  "gateId": "${APPLICATION_CLASSIFIER}",
+ 
+  "classifiers":
+ 
+    {
+     "classifier-container":
+ 
+      [
+       {
+       classifier-id": "1",
+       "classifier":
+ 
+        {
+         srcIp": "10.10.10.0",
+         "dstIp": "10.32.110.178",
+         "protocol": "0",
+         "srcPort": "1234",
+         "dstPort": "4321",
+         "tos-byte": "0xa0",
+         "tos-mask": "0xe0"
+         }
+       }
+       ]
+     },
+     "gate-spec":
+ 
+      {
+       dscp-tos-overwrite": "0xa0",
+       "dscp-tos-mask": "0xff"
+       },
+       "traffic-profile":
+ 
+        {
+         "service-class-name": "extrm_up"
+        
+ }
+    
+  }
+
+}

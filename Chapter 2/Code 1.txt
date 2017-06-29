@@ -1,0 +1,36 @@
+{
+ 
+  "network-topology:node": [
+ 
+  {
+ 
+    "node-id": "uni://${DEVICE_IP}",
+ 
+    "speed":
+ 
+    {
+ 
+      "speed-10M": 1
+ 
+    },
+ 
+    "uni:mac-layer": "IEEE 802.3-2005",
+ 
+    "uni:physical-medium": "UNI TypeFull Duplex 2 Physical
+    Interface",
+ 
+    "uni:mtu-size": 0,
+ 
+    "uni:type": "",
+ 
+    "uni:mac-address": "${DEVICE_MAC_ADDRESS}",
+ 
+    "uni:ip-address": "${DEVICE_IP}",
+ 
+    "uni:mode": "Full Duplex"
+ 
+  }
+ 
+  ]
+ 
+} 

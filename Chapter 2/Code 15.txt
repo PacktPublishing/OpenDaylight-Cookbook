@@ -1,0 +1,11 @@
+{
+ 
+  "cin":{
+ 
+      "con":"CCDS",              /*Content/*
+ 
+      "rn":"Cin1"                   /*Resource name*/
+ 
+    }
+ 
+}  

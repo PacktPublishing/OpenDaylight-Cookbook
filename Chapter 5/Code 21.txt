@@ -1,0 +1,7 @@
+<extension>
+
+<type xmlns:bgpspi="urn:opendaylight:params:xml:ns:yang:controller:bgp:parser:spi">bgpspi:extension</type>
+
+<name>bgp-new-extension-parser</name>
+
+</extension>

@@ -1,0 +1,15 @@
+{
+ 
+  "input": {
+ 
+  "vpn-name": "VPN #1",
+ 
+  "site-name": "site2",
+ 
+  "ip-prefix": "10.0.0.3/32",
+ 
+  "switch-port-id": "openflow:3:1"
+ 
+  }
+
+} 

@@ -1,0 +1,98 @@
+<neighbor xmlns="http://openconfig.net/yang/bgp">
+
+<neighbor-address>172.16.17.31</neighbor-address>
+
+<afi-safis>
+<afi-safi>
+
+  <afi-safi-name xmlns:x="http://openconfig.net/yang/bgp-types">x:IPV4
+  -UNICAST</afi-safi-name>
+
+</afi-safi>
+
+<afi-safi>
+
+  <afi-safi-name xmlns:x="http://openconfig.net/yang/bgp-types">x:IPV6
+  -UNICAST</afi-safi-name>
+
+</afi-safi>
+
+<afi-safi>
+
+  <afi-safi-name xmlns:x="http://openconfig.net/yang/bgp-types">x:IPV4
+  -LABELLED-UNICAST</afi-safi-name>
+
+</afi-safi>
+
+<afi-safi>
+
+  <afi-safi-name xmlns:x="http://openconfig.net/yang/bgp-types">L2VPN
+  -EVPN</afi-safi-name>
+
+</afi-safi>
+
+<afi-safi>
+
+  <afi-safi-name
+  xmlns:x="urn:opendaylight:params:xml:ns:yang:bgp:openconfig
+  -extensions">x:linkstate</afi-safi-name>
+
+</afi-safi>
+
+<afi-safi>
+
+  <afi-safi-name
+  xmlns:x="urn:opendaylight:params:xml:ns:yang:bgp:openconfig
+  -extensions">x:ipv4-flow</afi-safi-name>
+
+</afi-safi>
+
+<afi-safi>
+
+  <afi-safi-name
+  xmlns:x="urn:opendaylight:params:xml:ns:yang:bgp:openconfig
+  -extensions">x:ipv6-flow</afi-safi-name>
+
+</afi-safi>
+
+</afi-safis>
+
+<route-reflector>
+
+  <config>
+
+    <route-reflector-client>false</route-reflector-client>
+
+  </config>
+
+</route-reflector>
+
+<timers>
+
+  <config>
+
+    <hold-time>180</hold-time>
+
+  </config>
+
+</timers>
+
+<transport>
+
+  <config>
+
+    <passive-mode>false</passive-mode>
+
+  </config>
+
+</transport>
+
+  <config>
+
+    <peer-type>INTERNAL</peer-type>
+
+    <peer-as>65504</peer-as>
+
+  </config>
+
+</neighbor>

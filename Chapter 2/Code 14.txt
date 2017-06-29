@@ -1,0 +1,9 @@
+{
+ 
+  "m2m:cnt":{
+ 
+      "rn":"TestContainer"          /*Resource name*/
+ 
+    }
+ 
+}  

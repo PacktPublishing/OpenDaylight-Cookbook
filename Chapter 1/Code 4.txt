@@ -1,0 +1,37 @@
+<node>
+ 
+    <node-id>host:c2:5f:c0:14:f3:1d</node-id>
+ 
+    <termination-point>
+ 
+        <tp-id>host:c2:5f:c0:14:f3:1d</tp-id>
+ 
+    </termination-point>
+ 
+    <attachment-points>
+ 
+        <tp-id>openflow:3:1</tp-id>
+ 
+        <corresponding-tp>host:c2:5f:c0:14:f3:1d</corresponding-tp>
+ 
+        <active>true</active>
+ 
+    </attachment-points>
+ 
+    <addresses>
+ 
+        <id>2</id>
+ 
+        <mac>c2:5f:c0:14:f3:1d</mac>
+ 
+        <last-seen>1462650434613</last-seen>
+ 
+        <ip>10.0.0.3</ip>
+ 
+        <first-seen>1462650434613</first-seen>
+ 
+    </addresses>
+ 
+    <id>c2:5f:c0:14:f3:1d</id>
+ 
+</node> 

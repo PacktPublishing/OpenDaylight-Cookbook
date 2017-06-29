@@ -1,0 +1,21 @@
+{
+ 
+  "node-connector": [
+ 
+    {
+ 
+      "id": "openflow:2:2",
+ 
+                  --[cut]--
+ 
+      "stp-status-aware-node-connector:status": "forwarding",
+ 
+      "opendaylight-port-statistics:flow-capable-node-connector-statistics": {}
+ 
+      }
+ 
+    }
+ 
+  ]
+ 
+} 

@@ -1,0 +1,17 @@
+{
+ 
+   "input":{
+ 
+      "tenant-name":"vtn1",
+ 
+      "bridge-name":"vbr1",
+ 
+      "interface-name":"if1",
+ 
+      "node":"openflow:2",
+ 
+      "port-name":"s2-eth1"
+ 
+   }
+ 
+} 

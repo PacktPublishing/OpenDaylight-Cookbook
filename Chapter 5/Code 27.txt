@@ -1,0 +1,7 @@
+<module>
+
+<type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:pcep:impl">prefix:pcep-new-extension-parser</type>
+
+<name>pcep-new-extension-parser</name>
+
+</module>

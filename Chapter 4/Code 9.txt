@@ -1,0 +1,91 @@
+{
+ 
+  "service-nodes":{
+ 
+      "service-node":[
+ 
+        {
+ 
+            "name":"node0",
+ 
+            "service-function":[
+ 
+
+            ],
+ 
+            "ip-mgmt-address":"192.168.1.10"
+ 
+          },
+ 
+          {
+ 
+            "name":"node1",
+ 
+            "service-function":[
+ 
+
+            ],
+ 
+            "ip-mgmt-address":"192.168.1.20"
+ 
+          },
+ 
+          {
+ 
+            "name":"node2",
+ 
+            "service-function":[
+ 
+              "dpi-1"
+ 
+            ],
+ 
+            "ip-mgmt-address":"192.168.1.30"
+ 
+          },
+ 
+          {
+ 
+            "name":"node3",
+ 
+            "service-function":[
+ 
+              "firewall-1"
+ 
+            ],
+ 
+            "ip-mgmt-address":"192.168.1.40"
+ 
+          },
+ 
+          {
+ 
+            "name":"node4",
+ 
+            "service-function":[
+ 
+
+            ],
+ 
+            "ip-mgmt-address":"192.168.1.50"
+ 
+          },
+ 
+          {
+ 
+            "name":"node5",
+ 
+            "service-function":[
+ 
+
+            ],
+ 
+            "ip-mgmt-address":"192.168.1.60"
+ 
+          }
+ 
+      ]
+ 
+    }
+ 
+} 

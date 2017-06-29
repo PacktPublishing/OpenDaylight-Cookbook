@@ -1,0 +1,35 @@
+{
+ 
+    "request": {
+ 
+        "mbean": "org.opendaylight.controller:Category=Shards,name=member-2-shard-topology-config,type=DistributedConfigDatastore",
+ 
+        "type": "read"
+ 
+    },
+ 
+    "status": 200,
+ 
+    "timestamp": 1462739791,
+ 
+    "value": {
+ 
+        --[cut]--
+ 
+        "Leader": "member-1-shard-topology-config",
+ 
+        "PeerAddresses": "member-1-shard-topology-config: akka.tcp://opendaylight-cluster-data@192.168.50.151:2550/user/shardmanager-config/member-1-shard-topology-config, member-3-shard-topology-config: akka.tcp://opendaylight-cluster-data@192.168.50.153:2550/user/shardmanager-config/member-3-shard-topology-config",
+ 
+        "RaftState": "Follower",
+ 
+        --[cut]--
+ 
+        "ShardName": "member-2-shard-topology-config",
+ 
+        "VotedFor": "member-1-shard-topology-config",
+ 
+        --[cut]--
+ 
+    }
+ 
+}  

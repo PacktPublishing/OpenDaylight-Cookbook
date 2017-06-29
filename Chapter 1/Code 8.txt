@@ -1,0 +1,16 @@
+{
+ 
+  "userid": "user@sdn",
+ 
+  "name": "user",
+ 
+  "description": "user user",
+ 
+  "enabled": true, 
+  "email": "",
+ 
+  "password": "newpassword",
+ 
+  "domainid": "sdn"
+ 
+} 

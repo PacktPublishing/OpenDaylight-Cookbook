@@ -1,0 +1,11 @@
+<module>
+
+<type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:bgp:rib:impl">prefix:bgp-table-type-impl</type>
+
+<name>new-extension</name>
+
+<afi xmlns:new-extension="urn:opendaylight:params:xml:ns:yang:bgp-new-extension">new-extension:new-extension-address-family</afi>
+
+<safi xmlns:new-extension="urn:opendaylight:params:xml:ns:yang:bgp-new-extension">new-extension:new-extension-subsequent-address-family</safi>
+
+</module>

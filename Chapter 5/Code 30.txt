@@ -1,0 +1,20 @@
+identity pcep-new-extension-parser {
+
+  base config:module-type;
+
+  config:provided-service pcepspi:extension;
+
+  config:java-name-prefix PcepNewExtensionParser;
+
+}
+
+  augment "/config:modules/config:module/config:configuration" {
+
+  case pcep-new-extension-parser {
+
+  when "/config:modules/config:module/config:type = 'pcep-new
+  -extension-parser'";
+
+  }
+
+}

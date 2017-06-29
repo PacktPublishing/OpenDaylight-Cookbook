@@ -1,0 +1,15 @@
+{
+
+  "vpn-intents": [
+
+  {
+
+  "vpn-name": "VPN #1"
+  "path-protection": "true",
+  "failover-type": "slow-reroute"
+
+  }
+
+]
+
+} 

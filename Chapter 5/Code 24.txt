@@ -1,0 +1,21 @@
+identity bgp-new-extension-parser {
+
+  base config:module-type;
+
+  config:provided-service bgpspi:extension;
+
+  config:provided-service ribspi:extension; // for new AFI/SAFI
+
+  config:java-name-prefix NewExtensionParser;
+
+}
+
+  augment "/config:modules/config:module/config:configuration" {
+
+  case bgp-new-extension-parser {
+
+  when "/config:modules/config:module/config:type = 'bgp-new-extension-parser'";
+
+  }
+
+}

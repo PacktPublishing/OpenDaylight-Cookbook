@@ -1,0 +1,43 @@
+"channel": [
+ 
+          {
+ 
+            "channel-id": "Controller:inocybe.local
+
+            -Device:192.168.2.26-type:TLS",
+ 
+            "channel-type": "TLS",
+ 
+          --[cut]--
+ 
+            "session": [
+ 
+              {
+ 
+                "session-id": "1",
+ 
+                "bytes-in": 0,
+ 
+                "bytes-out": 0,
+ 
+                "termination-point": {
+ 
+                  "termination-point-id": "2007"
+ 
+                },
+ 
+              }
+ 
+            ],
+ 
+            "destination": {
+ 
+              "dest-node": "192.168.2.26"
+ 
+            }
+ 
+          --[cut]--
+ 
+          }
+ 
+        ]  

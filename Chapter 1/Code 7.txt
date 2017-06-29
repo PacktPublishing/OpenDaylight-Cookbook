@@ -1,0 +1,47 @@
+{
+ 
+  "users": [
+ 
+    {
+ 
+      "userid": "admin@sdn",
+ 
+      "name": "admin",
+ 
+      "description": "admin user",
+ 
+      "enabled": true,
+ 
+      "email": "",
+ 
+      "password": "**********",
+ 
+      "salt": "**********",
+ 
+      "domainid": "sdn"
+ 
+    },
+ 
+    {
+ 
+      "userid": "user@sdn",
+ 
+      "name": "user",
+ 
+      "description": "user user",
+ 
+      "enabled": true,
+ 
+      "email": "",
+ 
+      "password": "**********",
+ 
+      "salt": "**********",
+ 
+      "domainid": "sdn"
+ 
+    }
+ 
+  ]
+ 
+}  

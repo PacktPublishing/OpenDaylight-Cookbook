@@ -1,0 +1,27 @@
+{
+ 
+    "input":{
+ 
+      "onem2m-primitive":[
+ 
+          {
+ 
+            "name":"CSE_ID",
+
+            "value":"InCSE1"
+
+          },
+
+          {
+ 
+            "name":"CSE_TYPE",
+
+            "value":"IN-CSE"
+
+          }
+
+        ]
+
+    }
+
+} 

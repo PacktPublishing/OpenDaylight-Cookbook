@@ -1,0 +1,17 @@
+<resource>
+ 
+  <directory>
+ 
+    ${project.basedir}/src/main/resources
+ 
+  </directory>
+ 
+  <filtering>true</filtering>
+ 
+  <includes>
+ 
+    <include>**/*</include>
+ 
+  </includes>
+ 
+</resource> 

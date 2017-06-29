@@ -1,0 +1,26 @@
+<module>
+
+<type xmlns:x="urn:opendaylight:params:xml:ns:yang:controller:bgp:rib:impl">x:bgp-application-peer</type>
+
+<name>example-bgp-peer-app</name>
+
+<bgp-peer-id>192.168.1.102</bgp-peer-id>
+
+<target-rib>
+<type xmlns:x="urn:opendaylight:params:xml:ns:yang:controller:bgp:rib:impl">x:rib-instance</type>
+
+<name>example-bgp-rib</name>
+
+</target-rib>
+
+<application-rib-id>example-app-rib</application-rib-id>
+
+<data-broker>
+
+<type xmlns:sal="urn:opendaylight:params:xml:ns:yang:controller:md:sal:dom">sal:dom-async-data-broker</type>
+
+<name>pingpong-broker</name>
+
+</data-broker>
+
+</module>

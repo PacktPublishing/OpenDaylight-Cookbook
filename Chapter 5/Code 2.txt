@@ -1,0 +1,9 @@
+<module>
+
+<type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:controller:bgp:rib:impl">prefix:bgp-peer</type>
+
+<name>example-bgp-peer-2</name>
+
+<host>(IP address of BGP speaker #2)</host>
+
+<holdtimer>180</holdtimer>

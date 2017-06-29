@@ -1,0 +1,9 @@
+-->
+
+<client>
+
+  <address><PCC_IP_address></address>
+
+  <password>pcc_client_passwd</password>
+
+</client>

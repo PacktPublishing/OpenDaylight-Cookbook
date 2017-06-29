@@ -1,0 +1,37 @@
+{
+ 
+  "nodes": {
+ 
+    "node": [
+ 
+      {
+ 
+        "id": "openflow:2",
+ 
+        "node-connector": [
+ 
+          {
+ 
+            "id": "openflow:2:1",
+ 
+            --[cut]--
+ 
+            "address-tracker:addresses": [
+ 
+              {
+ 
+                "id": 0,
+ 
+                "first-seen": 1462650320161,
+ 
+                "mac": "7a:e4:ba:4d:bc:35",
+ 
+                "last-seen": 1462650320161,
+ 
+                "ip": "10.0.0.2"
+ 
+              }
+ 
+            ]
+ 
+          }, 

@@ -1,0 +1,7 @@
+<instance>
+
+<name>pcep-new-extension-parser</name>
+
+<provider>/modules/module[type='pcep-new-extension-parser'][name='pcep-new-extension-parser']</provider>
+
+</instance>

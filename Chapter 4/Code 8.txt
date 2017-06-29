@@ -1,0 +1,51 @@
+{
+ 
+  "port": {
+ 
+    "status": "DOWN",
+ 
+    "binding:host_id": "",
+ 
+    "name": "port1",
+ 
+    "allowed_address_pairs": [
+ 
+    ],
+ 
+    "admin_state_up": true,
+ 
+    "network_id": "e9330b1f-a2ef-4160-a991-169e56ab17f5",
+ 
+    "tenant_id": "4fd44f30292945e481c7b8a0c8908869",
+ 
+    "binding:vif_details": {
+ 
+    },
+ 
+    "binding:vnic_type": "normal",
+ 
+    "binding:vif_type": "unbound",
+ 
+    "mac_address": "fa:16:3e:c9:cb:f0",
+ 
+    "binding:profile": {
+ 
+    },
+ 
+    "fixed_ips": [
+ 
+      {
+ 
+        "subnet_id": "3b80198d-4f7b-4f77-9ef5-774d54e17126",
+ 
+        "ip_address": "192.168.199.1"
+ 
+      }
+ 
+    ],
+ 
+    "id": "65c0ee9f-d634-4522-8954-51021b570b0d"
+ 
+  }
+ 
+} 

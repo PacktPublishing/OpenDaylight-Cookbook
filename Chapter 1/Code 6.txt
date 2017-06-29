@@ -1,0 +1,43 @@
+<link>
+ 
+    <link-id>host:7a:e4:ba:4d:bc:35/openflow:2:1</link-id>
+ 
+    <source>
+ 
+        <source-tp>host:7a:e4:ba:4d:bc:35</source-tp>
+ 
+        <source-node>host:7a:e4:ba:4d:bc:35</source-node>
+ 
+    </source>
+ 
+    <destination>
+ 
+        <dest-node>openflow:2</dest-node>
+ 
+        <dest-tp>openflow:2:1</dest-tp>
+ 
+    </destination>
+ 
+</link>
+ 
+<link>
+ 
+    <link-id>openflow:3:1/host:c2:5f:c0:14:f3:1d</link-id>
+ 
+    <source>
+ 
+        <source-tp>openflow:3:1</source-tp>
+ 
+        <source-node>openflow:3</source-node>
+ 
+    </source>
+ 
+    <destination>
+ 
+        <dest-node>host:c2:5f:c0:14:f3:1d</dest-node>
+ 
+        <dest-tp>host:c2:5f:c0:14:f3:1d</dest-tp>
+ 
+    </destination>
+ 
+</link> 

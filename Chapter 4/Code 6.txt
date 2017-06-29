@@ -1,0 +1,31 @@
+{
+ 
+  "networks":[
+ 
+      {
+ 
+        "status":"ACTIVE",
+ 
+        "subnets":[],
+ 
+        "name":"network1",
+ 
+        "admin_state_up":true,
+ 
+        "tenant_id":"60cd4f6dbc5f499982a284e7b83b5be3",
+ 
+        "provider:network_type":"local",
+ 
+        "router:external":false,
+ 
+        "shared":false,
+ 
+        "id":"e9330b1f-a2ef-4160-a991-169e56ab17f5",
+ 
+        "provider:segmentation_id":100
+ 
+      }
+ 
+    ]
+ 
+} 
